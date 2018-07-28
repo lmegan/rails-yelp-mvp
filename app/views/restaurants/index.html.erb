@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="header">
+    <h1>My list of restaurants</h1>
+  </div>
+  <div class="list">
+    <ul class="list-group list-group-flush">
+      <% @restaurants.each do |restaurant| %>
+        <li class="list-group-item"><h2><%= link_to restaurant.name, restaurant_path(restaurant) %></h2></li>
+      <% end %>
+    </ul>
+  </div>
+  <div class="links">
+    <p><%= link_to "Create a new restaurant", new_restaurant_path, class: "btn btn-primary" %></p>
+  </div>
+</div>

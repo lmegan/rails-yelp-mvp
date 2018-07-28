@@ -1,0 +1,23 @@
+// Import page-specific CSS files here.
+@import "home";
+
+.container {
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+.header {
+  display: block;
+  align-items: center !important;
+  justify-content: center;
+}
+.list {
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+.links {
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
